@@ -13,7 +13,7 @@
       </header>
 
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter the topic of the Poem"
@@ -25,11 +25,7 @@
           <input type="submit" class="submit-button" />
         </form>
 
-        <div class="poem">
-          🌙 The Coder’s Quiet Place <br />
-          In lines of code we often find, A quiet peace within the mind. A world
-          created bit by bit, Where dreams and logic cleanly fit.
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         This AI project was coded by
@@ -44,6 +40,8 @@
         >
       </footer>
     </div>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
     <script src="src/index.js"></script>
   </body>
